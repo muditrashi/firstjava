@@ -3,6 +3,7 @@ public class App {
         System.out.println("Hello, World!");
         System.out.println("This is the App class.");
         System.out.println("Now calling secondfile...");
+        System.err.println("additional debug info");
         // Call the main method of secondfile
         secondfile.main(args);
     }
